@@ -1,5 +1,5 @@
 import MathChaar from './mathChar';
-export default class Daemon extends MathChaar {
+class Magician extends MathChaar {
     constructor(attack, stouner) {
         super(attack, stouner);
     }
