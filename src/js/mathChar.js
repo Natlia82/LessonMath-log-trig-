@@ -12,7 +12,7 @@ class MathChaar {
     }
 
     get attack() {
-        this._attack = this._attack - Math.log2(this._stouner) * 5;
+        this._attack = (this._attack - this._stouner * 10 - 10) - Math.log2(this._stouner) * 5;
         return this._attack;
     }
 }
